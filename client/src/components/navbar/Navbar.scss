@@ -1,0 +1,30 @@
+.Navbar{
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid gainsboro;
+
+    .container{
+        max-width: 960px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: auto;
+    }
+    .loadingBar{
+        z-index: 100;
+    }
+    .right-side{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .logout{
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+}

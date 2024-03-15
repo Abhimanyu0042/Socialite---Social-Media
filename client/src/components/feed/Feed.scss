@@ -1,0 +1,24 @@
+.Feed{
+    height: 100vh;
+    margin-top: 60px;
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .left-part{
+        flex: 2;
+    }
+    .right-part{
+        margin-top: 20px;
+        flex: 1;
+    }
+
+    .suggestions{
+        margin-top: 40px    ;
+    }
+
+    .title{
+        margin-bottom: 12px;
+
+    }
+}
